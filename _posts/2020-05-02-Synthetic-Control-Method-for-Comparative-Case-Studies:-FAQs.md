@@ -11,9 +11,9 @@ A synthetic control group can be defined as a weighted combination of several co
 
 3. What are the general assumptions used in the synthetic control method?
 Effective use of the SCM requires the following three general assumptions to hold:  
-i) Groups that have been exposed to a similar treatment are excluded from the pool of potential controls (the ‘donor pool’).  
-ii) The policy change has no effect before it is enacted.   
-iii) The treated group’s counterfactual outcome can be approximated by a fixed combination of donor controls.     
+•	Groups that have been exposed to a similar treatment are excluded from the pool of potential controls (the ‘donor pool’).  
+•	The policy change has no effect before it is enacted.  
+•	The treated group’s counterfactual outcome can be approximated by a fixed combination of donor controls.     
 
 4. How are the comparison groups of a synthetic control method chosen?  
 The synthetic control method allows researchers to systematically select comparison groups from a pool of potential candidates. The selection of donor groups and weights is determined by the pre-treatment outcome variable and the predictor variables that affect the outcome before the intervention.    
@@ -31,15 +31,16 @@ The synthetic control method is a useful supplementary method to DiD, and it als
 Both the SCM and the causal impact model use the help of control groups to construct a counterfactual of the treated group. As mentioned earlier, the SCM combines DiD techniques with elements from the matching method to construct the counterfactual. On the other hand, the causal impact method proposed by Brodersen et. al (2015) provides a fully Bayesian time-series estimate for the treatment effect by generalizing the DiD approach to the time-series setting. It is an improvised approach that uses Bayesian model averaging to construct the most appropriate synthetic control for modeling the counterfactual.    
 
 9. When to use the synthetic control method?   
-The SCM model is the most appropriate method to identify the true causal influence of a treatment for the following cases:
+The SCM model is the most appropriate method to identify the true causal influence of a treatment for the following cases:  
 •	When the intervention is done at an aggregate level, and there are a single or a few treated unit(s) with many potential control groups that are fixed in number.  
 •	When the dataset consists of (long) longitudinal pre and post-treatment data.  
 •	When the natural control groups are poor matches for the treatment group.    
 
 10. What are the limitations of the synthetic control method?  
-There are few limitations of the SCM model: i) The selection of the comparative units in a synthetic control method is not always well justified since there is currently no consensus on what constitutes a ‘good fit’ or how to judge the similarity.   
-ii) The credibility of the result relies on achieving a good pre-implementation fit for the outcome of interest between the treated unit and the synthetic control, which is difficult if the treated unit is an outlier.  
-iii) Another limitation of the SCM is that the traditional statistical inference is often inappropriate when there are a small number of treated and control units for large pre and post-treatment periods. Li (2019) resolved this difficulty by proposing a modified synthetic control method (MSC) to calculate the ATE, and by introducing a carefully designed subsampling method that provides valid confidence intervals for the ATE.      
+There are few limitations of the SCM model:  
+•	The selection of the comparative units in a synthetic control method is not always well justified since there is currently no consensus on what constitutes a ‘good fit’ or how to judge the similarity.  
+•	The credibility of the result relies on achieving a good pre-implementation fit for the outcome of interest between the treated unit and the synthetic control, which is difficult if the treated unit is an outlier.  
+•	Another limitation of the SCM is that the traditional statistical inference is often inappropriate when there are a small number of treated and control units for large pre and post-treatment periods. Li (2019) resolved this difficulty by proposing a modified synthetic control method (MSC) to calculate the ATE, and by introducing a carefully designed subsampling method that provides valid confidence intervals for the ATE.      
 
 References:  
 Abadie, A., and J. Gardeazabal (2003), "The Economic Costs of Conflict: A Case Study of the Basque Country", American Economic Review 93: 113–132.    
