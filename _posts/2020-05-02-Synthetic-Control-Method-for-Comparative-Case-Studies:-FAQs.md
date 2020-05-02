@@ -1,7 +1,7 @@
-Mithila Guha    
+Mithila Guha  
 
-The Synthetic Control Method (SCM) is a statistical method that was proposed by Abadie and Gardeazabal (2003) and Abadie, Diamond, and Hainmueller (2010, 2015) to identify the true causal impact of an aggregate-level intervention. This method is popular among multiple areas in the social sciences that use quasi-experimental data to estimate treatment effects. In this blog post, I will be answering different FAQ on the synthetic control method. 
 
+The Synthetic Control Method (SCM) is a statistical method that was proposed by Abadie and Gardeazabal (2003) and Abadie, Diamond, and Hainmueller (2010, 2015) to identify the true causal impact of an aggregate-level intervention. This method is popular among multiple areas in the social sciences that use quasi-experimental data to estimate treatment effects. In this blog post, I will be answering different FAQ on the synthetic control method.  
 
 1. What is the synthetic control method?  
 The synthetic control method is a statistical approach used in comparative case studies that evaluate the true causal effect of intervention at an aggregate level (e.g. state, country, age group, etc.) by comparing the treatment group with a weighted combination of control groups.    
@@ -42,9 +42,13 @@ ii) The credibility of the result relies on achieving a good pre-implementation 
 iii) Another limitation of the SCM is that the traditional statistical inference is often inappropriate when there are a small number of treated and control units for large pre and post-treatment periods. Li (2019) resolved this difficulty by proposing a modified synthetic control method (MSC) to calculate the ATE, and by introducing a carefully designed subsampling method that provides valid confidence intervals for the ATE.      
 
 References:  
-Abadie, A., and J. Gardeazabal (2003), "The Economic Costs of Conflict: A Case Study of the Basque Country", American Economic Review 93: 113–132.  
-Abadie, A., A. Diamond, and J. Hainmueller (2010), "Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California’s Tobacco Control Program", Journal of American Statistical Association 105: 493–505.  
-Abadie, A., A. Diamond, and J. Hainmueller (2015), "Comparative Politics and the Synthetic Control Method", American Journal of Political Science, Vol. 59, No. 2, April 2015, 495–510   
-Brodersen, K. H., F. Gallusser, J. Koehler, N. Remy, S. L. Scott (2015), "Inferring causal impact using Bayesian structural time-series models", Ann. Appl. Stat. 9, no. 1, 247--274. doi:10.1214/14-AOAS788. https://projecteuclid.org/euclid.aoas/1430226092  
+Abadie, A., and J. Gardeazabal (2003), "The Economic Costs of Conflict: A Case Study of the Basque Country", American Economic Review 93: 113–132.    
+
+Abadie, A., A. Diamond, and J. Hainmueller (2010), "Synthetic Control Methods for Comparative Case Studies: Estimating the Effect of California’s Tobacco Control Program", Journal of American Statistical Association 105: 493–505.    
+
+Abadie, A., A. Diamond, and J. Hainmueller (2015), "Comparative Politics and the Synthetic Control Method", American Journal of Political Science, Vol. 59, No. 2, April 2015, 495–510    
+
+Brodersen, K. H., F. Gallusser, J. Koehler, N. Remy, S. L. Scott (2015), "Inferring causal impact using Bayesian structural time-series models", Ann. Appl. Stat. 9, no. 1, 247--274. doi:10.1214/14-AOAS788. https://projecteuclid.org/euclid.aoas/1430226092    
+
 Li, K. T., (2019), "Statistical Inference for Average Treatment Effects Estimated by Synthetic Control Methods", Journal of the American Statistical Association, DOI: 10.1080/01621459.2019.1686986.
 
