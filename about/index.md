@@ -3,8 +3,11 @@ layout: page
 title: About
 ---
 
-Hey there! This website is designed to publish my blogposts
+Hey there! Thanks for visiting.
+
+This website is designed to publish my blogposts
 on GitHub Pages.
 
-Thanks for visiting.
-Mithila
+Feel free to explore the site. Thanks.
+
+Mithila Guha
