@@ -1,6 +1,6 @@
 Mithila Guha  
 
-
+    
 The Synthetic Control Method (SCM) is a statistical method that was proposed by Abadie and Gardeazabal (2003) and Abadie, Diamond, and Hainmueller (2010, 2015) to identify the true causal impact of an aggregate-level intervention. This method is popular among multiple areas in the social sciences that use quasi-experimental data to estimate treatment effects. In this blog post, I will be answering different FAQ on the synthetic control method.  
 
 1. What is the synthetic control method?  
