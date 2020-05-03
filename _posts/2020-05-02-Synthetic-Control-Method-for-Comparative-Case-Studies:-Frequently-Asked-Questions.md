@@ -41,7 +41,11 @@ There are few limitations of the SCM model:
 •	The selection of the comparative units in a synthetic control method is not always well justified since there is currently no consensus on what constitutes a ‘good fit’ or how to judge the similarity.  
 •	The credibility of the result relies on achieving a good pre-implementation fit for the outcome of interest between the treated unit and the synthetic control, which is difficult if the treated unit is an outlier.  
 •	Another limitation of the SCM is that the traditional statistical inference is often inappropriate when there are a small number of treated and control units for large pre and post-treatment periods. Li (2019) resolved this difficulty by proposing a modified synthetic control method (MSC) to calculate the ATE, and by introducing a carefully designed subsampling method that provides valid confidence intervals for the ATE.      
-
+  
+  
+    
+    
+    
 References:  
 Abadie, A., and J. Gardeazabal (2003), "The Economic Costs of Conflict: A Case Study of the Basque Country", American Economic Review 93: 113–132.    
 
@@ -51,5 +55,5 @@ Abadie, A., A. Diamond, and J. Hainmueller (2015), "Comparative Politics and the
 
 Brodersen, K. H., F. Gallusser, J. Koehler, N. Remy, S. L. Scott (2015), "Inferring causal impact using Bayesian structural time-series models", Ann. Appl. Stat. 9, no. 1, 247--274. doi:10.1214/14-AOAS788. https://projecteuclid.org/euclid.aoas/1430226092    
 
-Li, K. T., (2019), "Statistical Inference for Average Treatment Effects Estimated by Synthetic Control Methods", Journal of the American Statistical Association, DOI: 10.1080/01621459.2019.1686986.
+Li, K. T. (2019), "Statistical Inference for Average Treatment Effects Estimated by Synthetic Control Methods", Journal of the American Statistical Association, DOI: 10.1080/01621459.2019.1686986.
 
